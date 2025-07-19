@@ -1,7 +1,10 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  // No experimental config
+  // ✅ remove this to fix the build
+  // experimental: {
+  //   ppr: 'incremental',
+  // },
 };
 
 export default nextConfig;
